@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="T01_PEMVIS"/>
+        <attribute name="authors" value="ASUS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-06 11:21:38 AM"/>
+        <attribute name="created" value="QVNVUztMQVBUT1AtRjc4Q0hCNkc7MjAyNC0wOS0wNjsxMDoxMDo1NiBBTTsyNjAx"/>
+        <attribute name="edited" value="QVNVUztMQVBUT1AtRjc4Q0hCNkc7MjAyNC0wOS0wNjsxMToyMTozOCBBTTsyOzI3MTM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="ISBN" type="String" array="False" size=""/>
+            <input variable="ISBN"/>
+            <declare name="Judul" type="String" array="False" size=""/>
+            <input variable="Judul"/>
+            <declare name="Penulis" type="String" array="False" size=""/>
+            <input variable="Penulis"/>
+            <declare name="Tahun" type="Integer" array="False" size=""/>
+            <input variable="Tahun"/>
+            <declare name="Penerbit" type="String" array="False" size=""/>
+            <input variable="Penerbit"/>
+            <declare name="Format" type="String" array="False" size=""/>
+            <input variable="Format"/>
+            <declare name="Harga" type="Real" array="False" size=""/>
+            <input variable="Harga"/>
+            <declare name="Margin" type="Real" array="False" size=""/>
+            <input variable="Margin"/>
+            <declare name="Stok" type="Integer" array="False" size=""/>
+            <input variable="Stok"/>
+            <declare name="Rating" type="Real" array="False" size=""/>
+            <input variable="Rating"/>
+            <output expression="ISBN&amp;&quot;|&quot;&amp;Judul&amp;&quot;|&quot;&amp;Penulis&amp;&quot;|&quot;&amp;Tahun&amp;&quot;|&quot;&amp;Penerbit&amp;&quot;|&quot;&amp;Format&amp;&quot;|&quot;&amp;Harga&amp;&quot;|&quot;&amp;Margin&amp;&quot;|&quot;&amp;Stok&amp;&quot;|&quot;&amp;Rating" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
